@@ -7,4 +7,5 @@ from . import views
 urlpatterns = [
 
     path("", views.home),
+    path("cover",views.cover)
 ]

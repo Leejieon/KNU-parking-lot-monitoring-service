@@ -1,4 +1,4 @@
-#!/Users/meeju/Desktop/knu_parking/myvenv/bin/python3
+#!/Users/meeju/Desktop/knu_parking/myvenv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

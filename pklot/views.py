@@ -5,3 +5,8 @@ from django.utils import timezone
 def home(request):
 
     return render(request, 'home.html')
+
+def cover(request):
+
+    return render(request,"cover.html")
+

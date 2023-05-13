@@ -11,9 +11,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-# from config import my_settings
-# import pymysql
-# pymysql.install_as_MySQLdb()
+from config import my_settings
+import pymysql
+# pymysql.version_info = (1, 3, 13, "final", 0)
+pymysql.install_as_MySQLdb()
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -92,7 +93,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #     }
 # }
 
-# DATABASES = my_settings.DATABASES
+DATABASES = my_settings.DATABASES
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
